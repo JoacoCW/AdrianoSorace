@@ -1,0 +1,107 @@
+.nav__modificaciones{
+    background-color: rgb(26, 26, 26)!important;
+}
+
+.navbar a {
+    color: rgba(27, 197, 240, 0.911)!important;
+}
+
+.navbar a:hover {
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+    .move__right{
+        padding-left: 55%;
+    }
+}
+.logo {
+    width: 120px;
+}
+
+.foto1 {
+    background-image: url(../assets/Adriano-Sorace-2.jpg);
+    height: 420px;
+}
+
+.foto2 {
+    background-image: url(../assets/Ariano-Sorace-3.jpg);
+    height: 300px;
+}
+
+.foto1, .foto2 {
+    position: relative;
+    opacity: 75%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo1 {
+    color: rgb(0, 0, 0);
+    font-size: 340%;
+    top:30%;
+    left: 5%;
+}
+.titulo2 {
+    color: rgb(14, 14, 14);
+    font-size: 90%;
+    top: 45%;
+    left: 5%;
+}
+
+.titulo1, .titulo2 {
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+
+.section1 {
+    background-color: rgb(15, 15, 15);
+    color: rgba(27, 197, 240, 0.911);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.section1 h2 {
+    font-size: 15px;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    padding-bottom: 3px;
+}
+
+.row__footer {
+    padding-top: 10%;
+    color: rgba(27, 197, 240, 0.911);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    font-size: 1rem;
+    transition: transform 0.3s ease-out;
+    color: rgba(27, 197, 240, 0.911);
+}
+
+.btn:hover {
+    transform: translateY(8px); 
+    color: rgba(27, 197, 240, 0.911);
+}
+
+.copyright {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(27, 197, 240, 0.911);
+}
+
+.copyright a {
+    text-decoration: none;
+    color: rgba(27, 197, 240, 0.911);
+}
