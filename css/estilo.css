@@ -96,6 +96,15 @@
     color: rgba(27, 197, 240, 0.911);
 }
 
+.btn__info {
+    text-decoration: none; 
+    color: rgba(27, 197, 240, 0.911);
+}
+
+.btn__info:hover {
+    transform: translateY(8px);
+}
+
 .copyright {
     background-color: rgba(0, 0, 0, 0);
     color: rgba(27, 197, 240, 0.911);
@@ -104,4 +113,10 @@
 .copyright a {
     text-decoration: none;
     color: rgba(27, 197, 240, 0.911);
+}
+
+@media only screen and (max-width: 768px) {
+    .padding__bottom {
+        padding-bottom: 30px;
+    }
 }
